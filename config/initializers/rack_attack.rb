@@ -1,5 +1,5 @@
 class Rack::Attack
-    Rack::Attack.cache.store = ActiveSupport::Cache::MemorySafe.new
+    Rack::Attack.cache.store = ActiveSupport::Cache::MemoryStore.new
 
     # Allow all local trafic
     safelist('allow-localhost') do |req|
