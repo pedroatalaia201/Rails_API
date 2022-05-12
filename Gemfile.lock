@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/pedroatalaia201/simple_token_authentication
+  revision: 32a30c5ec252ba4b0765b3156ebe3134dc436e65
+  specs:
+    simple_token_authentication (1.17.0)
+      actionmailer (>= 3.2.6, < 8)
+      actionpack (>= 3.2.6, < 8)
+      devise (>= 3.2, < 6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -184,6 +193,7 @@ DEPENDENCIES
   rack-attack
   rack-cors
   rails (~> 7.0.2, >= 7.0.2.3)
+  simple_token_authentication!
   sqlite3 (~> 1.4)
   tzinfo-data
 
