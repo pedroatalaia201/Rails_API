@@ -8,4 +8,4 @@ module Api::V1
             throw(:warden, scope: :user) unless current_user.presence
         end
     end
-end
+end 
