@@ -1,6 +1,6 @@
 # Rails Agenda API
 
-This project is for an interview, it was made using Rails 3.0.0 and Ruby 7.0.2
+This project is for an interview, it was made using Ruby 3.0.0 and Rails 7.0.2
 <br><br><br>
 
 ## To Use
